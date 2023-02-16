@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+@media screen and (max-width: 576px) {
+  .product-style {
+    height: 10%;
+    width: 10%;
+    display: flex;
+    align-self: center;
+    margin-top: 40px;
+  }
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product-style {
+    height: 18%;
+    width: 18%;
+    display: flex;
+    align-self: center;
+    margin-top: 40px;
+  }
+  .Cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .product-style {
+    height: 15%;
+    width: 15%;
+    display: flex;
+    align-self: center;
+    margin-top: 40px;
+  }
+  .Product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
